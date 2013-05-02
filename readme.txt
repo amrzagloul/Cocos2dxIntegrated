@@ -1,18 +1,14 @@
-Call A Pizza
+Cocos2dxIntegrated
 
 ========================================================================
 Sample Description.
 
-The Call A Pizza example demonstrates how to invoke the phone application
-with a pre-selected number.
+This sample provides you with a basic template to integrate cocos2dx library with Cascades application.
 
 You will learn how to:
-- Use the Phone class
-- Query data from a webservice
-- Apply animations
-- Separate business logic from UI
+- Add enable cocos2dx to work with cascades
+- Use cascades ForeignWindow control to render cocos2dx application/game
 
-Note: Currently not supported on Dev Alpha devices
 
 ========================================================================
 Requirements:
@@ -28,11 +24,14 @@ Running the example:
 4. Browse to the location of your sample directory, and then click OK.
 5. The sample project should display in the Projects section. 
    Click Finish to import the project into your workspace.
-6. In the Project Explorer pane, Right-click the project (for example hellocascades) 
+6. Download cocos2dx from (http://cocos2d-x.googlecode.com/files/cocos2d-2.1beta3-x-2.1.1.zip) and extract inside "ext-libs/cocos2d-2.1beta3-x-2.1.1" folder.
+7. Integrate changes from "ext-libs/cocos2d-2.1beta3-x-2.1.1.changes" to "ext-libs/cocos2d-2.1beta3-x-2.1.1".
+8. Import cocos2dx and cocosDenshion project and Build.
+9. In the Project Explorer pane, Right-click the project (for example hellocascades) 
    and select Build Project.
-7. In the Project Explorer pane, Right-click the project (for example hellocascades) 
+10. In the Project Explorer pane, Right-click the project (for example hellocascades) 
    and select Run As > BlackBerry C/C++ Application.
-8. The application will now install and launch on your device if not you might
+11. The application will now install and launch on your device if not you might
    have to set up your environment: 
    http://developer.blackberry.com/cascades/documentation/getting_started/setting_up.html
 
